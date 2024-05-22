@@ -2,8 +2,8 @@
 .classpath
 .project
 .settings/
-bin/
 
 # Build output
-bin/
+bin/*
+report/*
 .scannerwork/
