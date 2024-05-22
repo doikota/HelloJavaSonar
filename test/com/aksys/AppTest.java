@@ -5,9 +5,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
     @Test
-    void testAppHasAGreeting() {
-        App classUnderTest = new App();
-        assertEquals("Hello world!!", classUnderTest.getGreeting());
+    void testGreeting() {
+        App app = new App();
+        assertEquals("Hello world!!", app.greeting());
     }
 
     @Test
