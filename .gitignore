@@ -1,0 +1,9 @@
+# Project files
+.classpath
+.project
+.settings/
+bin/
+
+# Build output
+bin/
+.scannerwork/
